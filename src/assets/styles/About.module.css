@@ -1,0 +1,27 @@
+.article {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+.article img {
+  height: 20rem;
+}
+
+.aboutme {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.aboutme p {
+  width: 50%;
+  margin: 1rem;
+}
+
+span {
+  color: #ff6200;
+}

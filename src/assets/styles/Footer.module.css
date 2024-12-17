@@ -1,0 +1,30 @@
+.footer {
+  width: 100%;
+  height: 10rem;
+  background-color: #f88740;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+a {
+  margin: 2rem;
+}
+
+.icon {
+  height: 2rem;
+}
+
+.creator {
+  width: 100%;
+  text-align: center;
+}
+
+.item {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
