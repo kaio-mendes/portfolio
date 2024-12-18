@@ -21,6 +21,7 @@ nav {
   justify-content: space-between;
   width: 85vh;
   margin: 1rem;
+  right: 0;
 }
 
 .items a {
@@ -50,17 +51,30 @@ nav {
   transform: scaleX(1);
 }
 
+.i_darkMode {
+  background-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  height: 1.5rem;
+  width: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  border: 1px black solid;
+}
+
 .darkMode {
-  height: 2rem;
+  height: 1.2rem;
   cursor: pointer;
 }
 
 .change {
   margin: 1rem;
-  width: 5rem;
-  padding: 4px;
+  width: 4rem;
+  height: 1rem;
   border-radius: 5rem;
   display: flex;
+  align-items: center;
   text-align: center;
   cursor: pointer;
 }
@@ -68,8 +82,5 @@ nav {
 @media (max-width: 1000px) {
   .items {
     display: none;
-  }
-  .darkMode {
-    height: 1rem;
   }
 }
