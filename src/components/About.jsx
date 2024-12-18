@@ -12,10 +12,9 @@ const About = () => {
           Hi, I'm <span>Kaio</span>. Nice to meet you.
         </h2>
         <p>
-          I am a developer with 5 years of experience in TypeScript, JavaScript, and React, focused on building
-          efficient, high-performance web solutions. I am passionate about turning ideas into innovative digital
-          products, always striving to learn and grow. My goal is to contribute to projects that make a difference in
-          the digital world.
+          I am a developer with experience in TypeScript, JavaScript, and React, focused on building efficient,
+          high-performance web solutions. I am passionate about turning ideas into innovative digital products, always
+          striving to learn and grow. My goal is to contribute to projects that make a difference in the digital world.
         </p>
       </div>
     </article>
